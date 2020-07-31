@@ -1,0 +1,713 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.body
+{
+    margin: 0px;
+}
+.container
+{
+    width: 1240px;
+    margin: auto;
+    /* background-color: rgb(255, 200, 127); */
+
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-logo img
+{
+    width: 200px;
+    height: auto;
+}
+.header-nav
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.header-nav a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 23px;
+    border-radius: 20px;
+}
+.header-nav a:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.329);
+}
+/* header completed */
+/* start of title page */
+.title
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.392),rgba(255, 255, 255, 0.392)),url(/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg);
+    height: 80vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.title-text
+{
+    color: black;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.title-text h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.title-text p
+{
+    font-size: 25px;
+    text-align: center;
+}
+/* end of title page */
+/* start of features  */
+.features
+{
+    border: 1px solid  rgba(233, 119, 99, 0.538);
+    /* margin-top: 50px; */
+}
+.features .frame
+{
+    flex: 0 0 24.89%;
+    height: 310px;
+    position: relative;
+    border: 1.3px solid lightblue;
+}
+.features .frame .face
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.features .frame .face1
+{
+    background-color: lightskyblue;
+    /* align-items: center; */
+    z-index: 1;
+    transform-origin: bottom;
+}
+.features .frame .face1 img
+{
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+.features .frame .face1 p
+{
+    font-size: 20px;
+}
+.face1:hover
+{
+    transform: translatey(-100%)rotatex(90deg);
+    transition: 0.5s;
+}
+.frame .face1:hover
+{
+    background-color: rgba(250, 95, 68, 0.61);
+}
+.frame .face .face2
+{
+    justify-content: center;
+    padding: 20px;
+    transform-origin: top;
+}
+.face2 p
+{
+    font-size: 20px;
+    padding: 30px;
+}
+/* end of features */
+.pictures
+{
+    margin-top: 50px;
+    position: relative;
+}
+.pictures .p1
+{
+    flex: 0 0 50%;
+}
+.pictures .p1 img
+{
+    width: 100%;
+    height: 380px;
+}
+.pictures .p2
+{
+    flex: 0 0 50%;
+}
+.pictures .p2 img
+{
+    width: 100%;
+    height: 764.25px;
+}
+.pictures .overlay2
+{
+    margin-left: 1.5px;
+    position: absolute;
+    top: o;
+    left: 0;
+    z-index: 1;
+    background-color:black;
+    opacity: 0.5;
+    width: 100%;
+    height: 99.5%;
+    border-radius: 5px;
+}
+.pictures .ptext1
+{
+     position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-size: 25px;
+}
+.pictures .ptext2
+{
+     position: absolute;
+    z-index: 2;
+    top: 70%;
+    left: 20%;
+    color: white;
+    font-size: 25px;
+}
+.pictures .ptext3
+{
+     position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 65%;
+    color: white;
+    font-size: 25px;
+}
+/* end of pictures */
+.about-us
+{
+    margin-top: 50px;
+}
+.about-us h1
+{
+    font-size: 40px;
+    color: coral;
+    text-align: center;
+}
+.about-us h1:after
+{
+    display: block;
+    height: 3px;
+    width: 170px;
+    background-color: coral;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.about-us h2
+{
+    font-size: 25px;
+    text-align: center;
+}
+.about-us p
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.about-us img
+{
+    width: 1000px;
+    height: 600px;
+    margin: 0 120px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+/* end of about us */
+/* start of amenities */
+.amenities h1
+{
+    font-size: 40px;
+    text-align: center;
+    color: coral;
+}
+.amenities h1:after
+{
+    display: block;
+    height: 3px;
+    width: 250px;
+    background-color: coral;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.amenities h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.amenities p
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+/* end of amenities */
+/* start of blocks */
+.blocks .b
+{
+    position: relative;
+    flex: 0 0 30%;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.blocks .b .b1
+{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+
+}
+.blocks .b .outer1
+{
+    border: 1px solid black ;
+    padding: 20px;
+    z-index: 1;
+    transform-origin: left;
+    background-color: skyblue;
+
+}
+.blocks .b .outer1 img
+{
+    width: 120px;
+    height: auto;  
+}
+.blocks .b .outer1 h2
+{
+    font-size: 30px;
+    color: rgb(221, 48, 221);
+    margin-bottom: 5px;
+}
+.blocks .b .outer1 p
+{
+    font-size: 20px;
+}
+.b :hover
+{
+    transform:  translateX(50%) rotateY(90deg);
+    transition: 1s;
+}
+.b .inner1
+{
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* end of blocks */
+/* start of facilities */
+.offers h1
+{
+    font-size: 40px;
+    color: rgb(255, 108, 55);
+    text-align: center;
+}
+.offers h1:after
+{
+    display: block;
+    height: 5px;
+    width: 200px;
+    background-color: rgb(255, 108, 55);
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.offers p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.offers .row .o-pics
+{
+    flex: 0 0 30%;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.offers .row .o-pics img
+{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    border-radius: 5px;
+}
+.offers .row .o-pics h2
+{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.offers .row .o-pics p
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.offers .row .p-pics
+{
+    flex: 0 0 30%;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.offers .row .p-pics img
+{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    border-radius: 5px;
+}
+.offers .row .p-pics h2
+{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.offers .row .p-pics p
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.offers .row .q-pics
+{
+    flex: 0 0 30%;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.offers .row .q-pics img
+{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    border-radius: 5px;
+}
+.offers .row .q-pics h2
+{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.offers .row .q-pics p
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.seminar .s1
+{
+    margin-top: 50px;
+     margin-left: 250px; 
+     margin-right: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+}
+.seminar .s1 img
+{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.seminar .s1 h2
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205) ;
+}
+.seminar .s1 p
+{
+    font-size: 17.5px;
+    padding: 0 15px;
+}
+.ourclients h1
+{
+    font-size: 40px;
+    color: rgb(255, 107, 54);
+    text-align: center;
+}
+.ourclients h1:after
+{
+    display: block;
+    height: 4px;
+    width: 250px;
+    background-color: rgb(255, 108, 55);
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.ourclients p
+{
+    font-size: 17px;
+    text-align: center;
+}
+.ourclients .row img
+{
+     width: 380px;
+     height: auto;
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+.testimonial .test1
+{
+    position: relative;
+    padding: 10px;
+}
+.testimonial .test1 h1
+{
+    font-size: 40px;
+    color: rgb(255, 88, 28);
+    text-align: center;
+}
+.testimonial .test1 h1:after
+{
+    display: block;
+    height: 5px;
+    width: 210px;
+    background-color: rgb(255, 88, 28);
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.testimonial .test1 h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.testimonial .test1 p
+{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(78, 77, 77);
+    color: white;
+    padding:  0 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin: 0 20px;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+}
+.testimonial .overlay
+ {
+     position: absolute;
+     top: o;
+     left: 0;
+     z-index: 1;
+     background-color:black;
+     opacity: 0.05;
+     width: 100%;
+     height: 100%;
+     border-radius: 5px;
+ }
+ /* end of testimonials */
+ /* start of meeting */
+ .meeting .m1 
+ {
+     position: relative;
+ }
+ .meeting .m1 img
+ {
+     width: 100%;
+     height: 700px;
+     margin: 50px 0px;
+ }
+ .meeting .m2
+ {
+     position: absolute;
+     z-index: 1;
+     top: 20%;
+     left: 30%;
+ }
+ .meeting .m2 h1
+ {
+     font-size: 50px;
+     color: rgb(255, 90, 31);
+     text-align: center;
+     font-weight: bold;
+ }
+ .meeting .m2 a
+ {
+     font-size: 25px;
+     text-decoration: none;
+     background-color: crimson;
+     color: white;
+     padding: 10px 20px;
+     margin-left: 250px;
+     border: 2px solid purple;
+     border-radius: 5px;
+     text-decoration-thickness: 3px;
+     font-weight: bold;
+ }
+ /* end of meeting */
+ .abcd .a-img
+ {
+     flex: 0 0 37%;
+     margin-top: 60px;
+     margin-left: 80px;
+     margin-right: 25px;
+     
+ }
+ .abcd .a-img img
+ {
+     height: 480px;
+     width: 370px;
+ }
+ .abcd .a-text
+ {
+     margin-left: 30px;
+     flex: 0 0 50%;
+     color: rgba(0, 0, 0, 0.850);
+ }
+ .abcd .a-text h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.abcd .a-text p
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.abcd .a-text ol
+{
+    font-size: 30px;
+    font-weight: 550;
+}
+/* end of abcd */
+/* start of footer */
+.end1
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 93vh;
+    border: 2px solid black;
+    background-color: rgb(1, 1, 39);
+}
+.end1 .f-img
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px 200px;
+    height: 100px;
+    border-bottom: 20px solid white;
+}
+.end1 .f-img img
+{
+    width: 155px;
+    height: 100px;
+    margin-left: 25px;
+}
+.end1 .f-text1
+{
+    flex: 0 0 20%;
+    color: white;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+}
+.end1 .f-text1 img
+{
+    width: 200px;
+    height: auto;
+}
+.end1 .f-text1 h2
+{
+    font-size: 20px;
+}
+.end1 .f-text1 p
+{
+    font-size: 17px;
+}
+.end1 .f-text2
+{
+    flex: 0 0 28%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+.end1 .f-text2 h1
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+i
+{
+    margin: 5px;
+}   
+.forms
+{
+    flex: 0 0 35%;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* margin-right: 100px; */
+    margin-bottom: 130px;
+    border-radius: 5px;
+    padding: 10px;
+}
+input
+{
+    width: 45%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+textarea
+{
+    width: 92.5%;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
+.forms a
+{
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 9px;
+    font-size: 20px;
+    background-color: rgb(245, 42, 42);
+    padding: 12px 221px;
+    color: white;
+}
